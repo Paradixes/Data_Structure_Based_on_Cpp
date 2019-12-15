@@ -40,7 +40,7 @@ DblNode<T>* DblList<T>::Search(const T& x, int& n)
 		current = current->next;
 	if (current != first)
 		return current;
-	else return ;
+	else return NULL;
 }
 
 template<class T>
